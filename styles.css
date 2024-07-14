@@ -1,0 +1,94 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #87c1f8;
+    position: relative;
+}
+
+.logo-container {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.logo {
+    width: 100px; 
+    height: auto;
+}
+
+.logo-figura {
+    position:absolute;
+    right: 20px;
+}
+
+.container {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px;
+    position: relative;
+}
+
+h2 {
+    margin-top: 0;
+    text-align: center;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    resize: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 16px;
+    box-shadow: none;
+    box-sizing: border-box;
+}
+
+.notice {
+    color: grey;
+    font-size: 9px;
+    margin-bottom: 10px;
+    
+   
+}
+
+
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3793f5;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+
+}
+
+.botao{
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #003cff;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    min-width: 160px
+}
+
+button:hover {
+    background-color: #0056b3;
+}
